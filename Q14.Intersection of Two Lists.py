@@ -10,7 +10,7 @@ for num in arr1:
 
 ans=[]
 for num in arr2:
-    if num in map:
+    if num in map and map[num] > 0:
         map[num]-=1
         ans.append(num)
 
